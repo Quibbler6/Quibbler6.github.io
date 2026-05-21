@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Geometry project placeholder</title>
+  <desc id="desc">A sparse geometric mapping illustration.</desc>
+  <rect width="760" height="420" fill="#f7f7f4"/>
+  <g fill="none" stroke="#1e2938" stroke-width="3" opacity=".62">
+    <path d="M85 321 256 119l155 192 139-142 126 126"/>
+    <path d="M85 321h591M256 119l294 50M411 311l265-16M256 119l155 192"/>
+  </g>
+  <g fill="#1e2938" opacity=".58">
+    <circle cx="85" cy="321" r="9"/>
+    <circle cx="256" cy="119" r="9"/>
+    <circle cx="411" cy="311" r="9"/>
+    <circle cx="550" cy="169" r="9"/>
+    <circle cx="676" cy="295" r="9"/>
+  </g>
+  <g fill="#6a7f9f" opacity=".26">
+    <circle cx="165" cy="244" r="34"/>
+    <circle cx="490" cy="232" r="48"/>
+    <circle cx="615" cy="272" r="28"/>
+  </g>
+</svg>
+

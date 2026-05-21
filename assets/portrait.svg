@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">A quiet monochrome portrait placeholder for the personal homepage template.</desc>
+  <rect width="720" height="900" fill="#f4f4f1"/>
+  <path d="M0 715c97-40 207-62 329-62 161 0 293 38 391 99v148H0Z" fill="#d9ddd6"/>
+  <circle cx="363" cy="306" r="126" fill="#d6d1c7"/>
+  <path d="M234 324c22-116 75-174 160-174 86 0 136 63 142 169-53-48-107-72-163-72-53 0-99 26-139 77Z" fill="#333" opacity=".72"/>
+  <path d="M207 699c23-116 82-186 177-186 96 0 158 70 188 186Z" fill="#3c4550" opacity=".82"/>
+  <path d="M263 706c16-74 54-116 118-116 66 0 108 42 130 116Z" fill="#f1f0ec" opacity=".68"/>
+  <path d="M168 139c144-107 281-112 411-15" fill="none" stroke="#75879c" stroke-width="3" opacity=".34"/>
+  <path d="M139 787c156 20 309 22 459 5" fill="none" stroke="#75879c" stroke-width="3" opacity=".28"/>
+</svg>
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Harbor Light</title>
+  <desc id="desc">A vertical photography placeholder with harbor light tones.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8dde5"/>
+      <stop offset=".55" stop-color="#f3e6d2"/>
+      <stop offset="1" stop-color="#9ba7b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#sky)"/>
+  <rect y="760" width="900" height="440" fill="#48535f" opacity=".62"/>
+  <path d="M0 816c123-46 252-54 387-24 146 32 316 21 513-46v454H0Z" fill="#27323d" opacity=".56"/>
+  <circle cx="674" cy="292" r="78" fill="#fff0c2" opacity=".88"/>
+  <path d="M132 646h636" stroke="#f7f7f4" stroke-width="9" opacity=".45"/>
+</svg>
+

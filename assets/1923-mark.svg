@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-labelledby="title desc">
+  <title id="title">1923 mark</title>
+  <desc id="desc">A simple aperture-inspired mark for the 1923 photography page.</desc>
+  <rect width="192" height="192" fill="#f7f7f4"/>
+  <circle cx="96" cy="96" r="55" fill="none" stroke="#6f7480" stroke-width="10" opacity=".72"/>
+  <path d="M96 41 126 93 96 151 66 99Z" fill="#6f7480" opacity=".34"/>
+  <path d="M49 83h94l-47 68Z" fill="#222" opacity=".12"/>
+  <text x="96" y="104" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="30" letter-spacing="4" fill="#5c6068">1923</text>
+</svg>
+

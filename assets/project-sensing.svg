@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sensing project placeholder</title>
+  <desc id="desc">A soft sensor-fusion illustration for an academic project.</desc>
+  <rect width="760" height="420" fill="#f7f7f4"/>
+  <g fill="none" stroke="#2b2f39" stroke-width="2.5" opacity=".58">
+    <circle cx="220" cy="211" r="72"/>
+    <circle cx="380" cy="211" r="72"/>
+    <circle cx="540" cy="211" r="72"/>
+    <path d="M292 211h16M452 211h16"/>
+    <path d="M220 139v144M148 211h144M380 139v144M308 211h144M540 139v144M468 211h144"/>
+  </g>
+  <g fill="#667895" opacity=".25">
+    <circle cx="220" cy="211" r="41"/>
+    <circle cx="380" cy="211" r="41"/>
+    <circle cx="540" cy="211" r="41"/>
+  </g>
+  <path d="M101 333c102-34 203-48 304-42 89 5 171 22 246 51" fill="none" stroke="#7f8d74" stroke-width="4" opacity=".36"/>
+</svg>
+

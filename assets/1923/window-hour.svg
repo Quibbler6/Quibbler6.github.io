@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Window Hour</title>
+  <desc id="desc">A vertical photography placeholder of window light.</desc>
+  <rect width="900" height="1100" fill="#eee8db"/>
+  <rect x="165" y="116" width="570" height="760" fill="#9ea7aa" opacity=".52"/>
+  <rect x="224" y="170" width="202" height="310" fill="#f8f1db" opacity=".85"/>
+  <rect x="475" y="170" width="202" height="310" fill="#4b5960" opacity=".55"/>
+  <rect x="224" y="536" width="202" height="284" fill="#52616a" opacity=".42"/>
+  <rect x="475" y="536" width="202" height="284" fill="#f4ead4" opacity=".72"/>
+  <path d="M0 935h900v165H0Z" fill="#3f4546" opacity=".45"/>
+</svg>
+
