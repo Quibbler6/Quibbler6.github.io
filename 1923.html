@@ -48,97 +48,128 @@
             <strong>1923 is a small gallery for selected photography works.</strong>
             <br>
             <hr class="solid">
-            This page keeps a quiet masonry layout for images with different aspect ratios. Replace the sample files in <b>assets/1923/</b> with your own photographs, then update the captions below.
+            This page keeps a quiet masonry layout for images with different aspect ratios. Replace the files in <b>assets/1923/</b> with your own photographs, then update the captions below.
             <br><br>
             The visual behavior follows the reference Gallery section: three columns on desktop, two on tablets, one on small phones, with a soft lift and image zoom on hover.
           </article>
 
           <h2 class="gallery-heading">Gallery</h2>
-          <div class="gallery-grid">
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0709.jpeg">
-                <img src="./assets/1923/IMG_0709.jpeg" alt="Ayutthaya" loading="lazy">
-              </a>
-              <figcaption>Ayutthaya</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0733.jpeg">
-                <img src="./assets/1923/IMG_0733.jpeg" alt="Tree-born Buddha" loading="lazy">
-              </a>
-              <figcaption>Tree-born Buddha</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0747.jpeg">
-                <img src="./assets/1923/IMG_0747.jpeg" alt="IMG 0747" loading="lazy">
-              </a>
-              <figcaption>IMG 0747</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0821.jpeg">
-                <img src="./assets/1923/IMG_0821.jpeg" alt="IMG 0821" loading="lazy">
-              </a>
-              <figcaption>IMG 0821</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0835.jpeg">
-                <img src="./assets/1923/IMG_0835.jpeg" alt="IMG 0835" loading="lazy">
-              </a>
-              <figcaption>IMG 0835</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_0905.jpeg">
-                <img src="./assets/1923/IMG_0905.jpeg" alt="IMG 0905" loading="lazy">
-              </a>
-              <figcaption>IMG 0905</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_1038.jpeg">
-                <img src="./assets/1923/IMG_1038.jpeg" alt="IMG 1038" loading="lazy">
-              </a>
-              <figcaption>IMG 1038</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_2242.jpeg">
-                <img src="./assets/1923/IMG_2242.jpeg" alt="IMG 2242" loading="lazy">
-              </a>
-              <figcaption>IMG 2242</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_2860.jpeg">
-                <img src="./assets/1923/IMG_2860.jpeg" alt="IMG 2860" loading="lazy">
-              </a>
-              <figcaption>IMG 2860</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_8230.jpeg">
-                <img src="./assets/1923/IMG_8230.jpeg" alt="IMG 8230" loading="lazy">
-              </a>
-              <figcaption>IMG 8230</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_8237.jpeg">
-                <img src="./assets/1923/IMG_8237.jpeg" alt="IMG 8237" loading="lazy">
-              </a>
-              <figcaption>IMG 8237</figcaption>
-            </figure>
-            <figure class="img-box">
-              <a href="./assets/1923/IMG_9386.jpeg">
-                <img src="./assets/1923/IMG_9386.jpeg" alt="IMG 9386" loading="lazy">
-              </a>
-              <figcaption>IMG 9386</figcaption>
-            </figure>
-          </div>
+          <div class="gallery-grid" id="photo-gallery" aria-live="polite"></div>
 
           <footer class="footer story-footer">
             <hr class="solid">
-            <span data-last-updated="Last update: May 2026.">Last update: May 2026.</span>
+            <span data-last-updated="Last update: Jun 2026.">Last update: Jun 2026.</span>
             <span class="footer-spacer">&nbsp;</span>
-            <span class="copyright">&copy; yourdomain.me</span>
+            <span class="copyright">&copy; shiyuli2003</span>
           </footer>
         </div>
       </main>
       <div class="col-md-2 col-xs-3"></div>
     </div>
   </div>
+
+  <script>
+    const galleryPhotos = [
+      "1618507249000_R0003646.jpeg",
+      "1618516860000_R0003704.jpeg",
+      "1618517505000_R0003715.jpeg",
+      "1618587352000_R0003886.jpeg",
+      "1618593574000_R0003926.jpeg",
+      "1618596097000_R0003948.jpeg",
+      "1618687916000_R0004018.jpeg",
+      "1618688635000_R0004020.jpeg",
+      "1618690387000_R0004042.jpeg",
+      "1618691606000_R0004045.jpeg",
+      "1618691664000_R0004055.jpeg",
+      "1619029461000_R0004278.jpeg",
+      "1619030051000_R0004285.jpeg",
+      "IMG_0295.jpeg",
+      "IMG_0339.jpeg",
+      "IMG_0510.jpeg",
+      "IMG_0513.jpeg",
+      "IMG_0559.jpeg",
+      "IMG_0572.jpeg",
+      "IMG_0709.jpeg",
+      "IMG_0733.jpeg",
+      "IMG_0747.jpeg",
+      "IMG_0821.jpeg",
+      "IMG_0835.jpeg",
+      "IMG_0905.jpeg",
+      "IMG_0916.jpeg",
+      "IMG_1038.jpeg",
+      "IMG_1654.jpeg",
+      "IMG_2242.jpeg",
+      "IMG_2385.jpeg",
+      "IMG_2387.jpeg",
+      "IMG_2703.jpeg",
+      "IMG_2860.jpeg",
+      "IMG_3056.jpeg",
+      "IMG_3207.jpeg",
+      "IMG_3484.jpeg",
+      "IMG_3989.jpeg",
+      "IMG_4528.jpeg",
+      "IMG_4596.jpeg",
+      "IMG_4600.jpeg",
+      "IMG_4615.jpeg",
+      "IMG_4706.jpeg",
+      "IMG_5234.jpeg",
+      "IMG_5761.jpeg",
+      "IMG_6402.jpeg",
+      "IMG_6413.jpeg",
+      "IMG_7306.jpeg",
+      "IMG_7416.jpeg",
+      "IMG_7434.jpeg",
+      "IMG_7949.jpeg",
+      "IMG_8230.jpeg",
+      "IMG_8237.jpeg",
+      "IMG_8343.jpeg",
+      "IMG_8601.jpeg",
+      "IMG_8631.jpeg",
+      "IMG_8657.jpeg",
+      "IMG_9186.jpeg",
+      "IMG_9232.jpeg",
+      "IMG_9386.jpeg",
+      "IMG_9463.jpeg",
+      "R0000698.jpeg",
+      "0eab46cd17a3a1e05716c7d9d8489660.jpeg",
+      "28d0e782c104333e5b601552b5caf90d.jpeg",
+      "3f2a26f8ad660231c01f40f645bbb0f5.jpeg",
+      "6c846c1115b43d444ef6a35e7a03bec0.jpeg",
+      "8efb22a444b08fb95084bc70abc467a4.jpeg",
+      "a47f1c13e5a299f7e55daee7e2d39e2d.jpeg",
+      "b8422c7fe4417cc1ba4de5ef8e5ea132.jpeg",
+      "de65f193b4cb405056319e78b6d844f8.jpeg",
+      "f4ae59447bb8fd90492390332a894bbf.jpeg"
+    ];
+
+    const galleryCaptions = {
+      "IMG_0709.jpeg": "Ayutthaya",
+      "IMG_0733.jpeg": "Tree-born Buddha"
+    };
+
+    const captionFor = (fileName, index) => {
+      if (galleryCaptions[fileName]) return galleryCaptions[fileName];
+      if (fileName.startsWith("IMG_")) return fileName.replace(".jpeg", "").replace("_", " ");
+      if (fileName.startsWith("R")) return fileName.replace(".jpeg", "");
+      if (/^\d+_R/.test(fileName)) return fileName.split("_").pop().replace(".jpeg", "");
+      return `Photo ${index + 1}`;
+    };
+
+    const escapeAttribute = (value) => value.replace(/"/g, "&quot;");
+
+    const gallery = document.getElementById("photo-gallery");
+    gallery.innerHTML = galleryPhotos.map((fileName, index) => {
+      const path = `./assets/1923/${fileName}`;
+      const caption = captionFor(fileName, index);
+      return `
+        <figure class="img-box">
+          <a href="${path}">
+            <img src="${path}" alt="${escapeAttribute(caption)}" loading="lazy">
+          </a>
+          <figcaption>${caption}</figcaption>
+        </figure>
+      `;
+    }).join("");
+  </script>
 </body>
 </html>

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" role="img" aria-labelledby="title desc">
-  <title id="title">Soft Room</title>
-  <desc id="desc">A warm interior photography placeholder.</desc>
-  <rect width="1100" height="760" fill="#eee5d6"/>
-  <rect x="94" y="108" width="354" height="482" fill="#d5c2a4" opacity=".62"/>
-  <rect x="534" y="156" width="394" height="286" fill="#73808a" opacity=".48"/>
-  <path d="M0 602h1100v158H0Z" fill="#655f57" opacity=".38"/>
-  <circle cx="760" cy="314" r="86" fill="#f6edcf" opacity=".62"/>
-</svg>
